@@ -6,3 +6,7 @@ class Dense:
         self.biases = np.zeros((1, n_neurons))
     def forward(self, inputs):
         self.output = np.dot(inputs, self.weights) + self.biases
+
+
+
+
